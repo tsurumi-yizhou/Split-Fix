@@ -19,12 +19,3 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
-
--assumenosideeffects class kotlin.jvm.internal.Intrinsics {
-    public static *** throwUninitializedProperty(...);
-    public static *** throwUninitializedPropertyAccessException(...);
-}
-
--keepclassmembers class * implements androidx.viewbinding.ViewBinding {
-    *** inflate(android.view.LayoutInflater);
-}

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:window="http://schemas.android.com/apk/res-auto">
-    <SplitPairRule window:finishPrimaryWithSecondary="true" window:finishSecondaryWithPrimary="true" window:splitMinSmallestWidth="550dp" window:splitMinWidth="550dp" window:splitRatio="0.3">
+    <SplitPairRule window:finishPrimaryWithSecondary="true" window:finishSecondaryWithPrimary="true" window:splitMinSmallestWidth="200dp" window:splitMinWidth="200dp" window:splitRatio="0.24">
         <SplitPairFilter window:primaryActivityName="com.tencent.mm.ui.LauncherUI" window:secondaryActivityName="com.tencent.mm.*"/>
     </SplitPairRule>
-    <SplitPairRule window:clearTop="true" window:finishPrimaryWithSecondary="true" window:finishSecondaryWithPrimary="true" window:splitMinSmallestWidth="550dp" window:splitMinWidth="550dp" window:splitRatio="0.3">
+    <SplitPairRule window:clearTop="true" window:finishPrimaryWithSecondary="true" window:finishSecondaryWithPrimary="true" window:splitMinSmallestWidth="200dp" window:splitMinWidth="200dp" window:splitRatio="0.24">
         <SplitPairFilter window:primaryActivityName="com.tencent.mm.ui.LauncherUI" window:secondaryActivityName="com.tencent.mm.ui.chatting.ChattingUI"/>
     </SplitPairRule>
-    <SplitPlaceholderRule window:placeholderActivityName="com.tencent.mm.ui.EmptyActivity" window:splitMinWidth="600dp" window:splitRatio="0.3">
+    <SplitPlaceholderRule window:placeholderActivityName="com.tencent.mm.ui.EmptyActivity" window:splitMinWidth="200dp" window:splitRatio="0.24">
         <ActivityFilter window:activityName="com.tencent.mm.ui.LauncherUI"/>
     </SplitPlaceholderRule>
     <ActivityRule window:alwaysExpand="true">
@@ -116,9 +116,6 @@
     </ActivityRule>
     <ActivityRule window:alwaysExpand="true">
         <ActivityFilter window:activityName="com.tencent.mm.plugin.finder.feed.ui.FinderLiveVisitorWithoutAffinityUI"/>
-    </ActivityRule>
-    <ActivityRule window:alwaysExpand="true">
-        <ActivityFilter window:activityName="com.tencent.mm.plugin.finder.feed.ui.FinderLiveAnchorWithoutAffinityUI"/>
     </ActivityRule>
     <ActivityRule window:alwaysExpand="true">
         <ActivityFilter window:activityName="com.tencent.mm.plugin.finder.feed.ui.FinderLiveAnchorWithoutAffinityUI"/>
